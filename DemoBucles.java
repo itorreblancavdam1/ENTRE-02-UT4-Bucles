@@ -29,7 +29,20 @@ public class DemoBucles
      *  Usa bucles while
      */
     public int mayorPotencia2(int numero) {
+        int potencia = 0;
+        while (potencia <= numero)
+        {
+                if(numero % 2 == 0){
+                    Math.sqrt(numero);
+                }
+                else if (numero % 2 != 0){
+                return 1;
+                    
+                }
+                else {
+     
         
+        }
         return 0;
 
     }
@@ -49,11 +62,11 @@ public class DemoBucles
      *  18 =    16     2
      *  64 =    64
      */
-    public void escribirSumaPotencias(int numero) {
+    // public void escribirSumaPotencias(int numero) {
 
          
 
-    }
+    // }
 
     /**
      * Generar aleatorios entre 0 y 255
@@ -66,11 +79,11 @@ public class DemoBucles
      * Utiliza bucles while
      * 
      */
-    public void generarAleatorios(int n) {
+    // public void generarAleatorios(int n) {
 
        
 
-    }
+    // }
 
     /**
      *  Escribe en pantalla caracter n veces en la misma línes

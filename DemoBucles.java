@@ -1,16 +1,19 @@
+import java.util.Random;
 /**
- *    @author - 
+ *    @author - Íñigo Torreblanca
  */
 public class DemoBucles
 {
     private final char ASTERISCO = '*';
     private final char ESPACIO = ' ';
+    private Random generador;
 
     /**
      * Constructor  
      */
     public DemoBucles()
     {
+        generador = new Random(); 
        
     }
 
